@@ -20,6 +20,7 @@ function ChatInput({channelName, channelId}) {
              imageImage: user.photoURL,
          })
         }
+        setInput("");
     }
 
     return (
