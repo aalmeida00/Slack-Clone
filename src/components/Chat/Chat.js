@@ -34,8 +34,7 @@ function Chat() {
     }, [roomId])
 
     
-    console.log(roomDetails)
-    console.log("Messagess >>", roomMessages)
+
 
     return (
         <div className="chat">
